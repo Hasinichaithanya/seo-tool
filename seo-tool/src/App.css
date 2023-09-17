@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  color: black;
+}
+button{
+  color: red;
+  font-weight: 600;
+  background-color: aquamarine;
+  border:  none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.loading{
+  margin-top: 50px;
+  font-weight: bold;
+}
+input{
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+form{
+  display :flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.report{
+  border-color: aqua;
+  border-radius: 10px;
+}
+span {
+  align-self: flex-start;
+  position: relative;
+  margin-left:0px;
+}
+
+.list-item{
+  align-self: center;
+  border: black 1px solid;
+  border-radius: 10px;
+  padding: 10px
+}
