@@ -106,7 +106,7 @@ function App() {
       {loading&& "Loading....Please Wait!"}
       </div>
       {
-        imageURL && <img src={imageURL}/>
+        imageURL && <img src={imageURL} alt="screen_shot"/>
       }
       {result && (
         <div className='report'>
@@ -116,7 +116,7 @@ function App() {
           <h4>Page Metrics</h4>
           <div className='container'>{result.map(r=>{
             if (r[0]==="checks"){
-              return 
+              return ""
             }else{
              return( <p className='list-item' key={r[0]}>{(r[0])+" : "+r[1]}</p>)
             }
